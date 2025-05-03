@@ -1,0 +1,638 @@
+{
+    "images": {
+        "3977b2b2-b102-4edb-a493-841c29b9f1a2": {
+            "image_id": "3977b2b2-b102-4edb-a493-841c29b9f1a2",
+            "image_path": "sample_image.png",
+            "source_language": "eng",
+            "extracted_text": "",
+            "timestamp": "2025-05-03T13:24:12.588281"
+        },
+        "4bf50550-80cf-41fb-888c-542cbd074605": {
+            "image_id": "4bf50550-80cf-41fb-888c-542cbd074605",
+            "image_path": "image.jpg",
+            "source_language": "eng",
+            "extracted_text": "Free as a bid\n\n",
+            "timestamp": "2025-05-03T13:32:01.966583"
+        },
+        "1067ee00-7eea-4e85-ab4f-af2883ff1786": {
+            "image_id": "1067ee00-7eea-4e85-ab4f-af2883ff1786",
+            "image_path": "image.jpg",
+            "source_language": "eng",
+            "extracted_text": "Free as a bid\n\n",
+            "timestamp": "2025-05-03T13:39:34.424704"
+        },
+        "34bd894e-f2e6-4697-a814-7b9d2d30f8b5": {
+            "image_id": "34bd894e-f2e6-4697-a814-7b9d2d30f8b5",
+            "image_path": "image.jpg",
+            "source_language": "en",
+            "extracted_text": "Free as a bid\n\n",
+            "timestamp": "2025-05-03T13:56:42.012512"
+        },
+        "bbe0de06-e455-4690-bae5-8a0a24348ce8": {
+            "image_id": "bbe0de06-e455-4690-bae5-8a0a24348ce8",
+            "image_path": "image.jpg",
+            "source_language": "en",
+            "extracted_text": "Free as a bid\n\n",
+            "timestamp": "2025-05-03T15:56:33.153283"
+        },
+        "d46e93a4-0ce5-4435-84cf-f37590e317e7": {
+            "image_id": "d46e93a4-0ce5-4435-84cf-f37590e317e7",
+            "image_path": "image.jpg",
+            "source_language": "en",
+            "extracted_text": "Free as a bid\n\n",
+            "timestamp": "2025-05-03T16:02:15.542728"
+        },
+        "055a87d4-05b5-443a-af38-46c79379d33d": {
+            "image_id": "055a87d4-05b5-443a-af38-46c79379d33d",
+            "image_path": "image.jpg",
+            "source_language": "en",
+            "extracted_text": "Free as a bid\n\n",
+            "timestamp": "2025-05-03T16:14:07.197982"
+        },
+        "28c15cdb-0825-4ed0-9794-ae1e80b9b466": {
+            "image_id": "28c15cdb-0825-4ed0-9794-ae1e80b9b466",
+            "image_path": "image.jpg",
+            "source_language": "en",
+            "extracted_text": "Free as a bid\n\n",
+            "timestamp": "2025-05-03T16:23:49.005832"
+        },
+        "87655350-a988-4cd1-a59d-c902faa00f44": {
+            "image_id": "87655350-a988-4cd1-a59d-c902faa00f44",
+            "image_path": "sample_image.png",
+            "source_language": "en",
+            "extracted_text": "",
+            "timestamp": "2025-05-03T16:28:08.257742"
+        },
+        "1722f2b5-d3e9-4c72-b0c0-01f888de43f5": {
+            "image_id": "1722f2b5-d3e9-4c72-b0c0-01f888de43f5",
+            "image_path": "sample_image.png",
+            "source_language": "en",
+            "extracted_text": "",
+            "timestamp": "2025-05-03T16:39:28.952668"
+        },
+        "6c7b3acc-2bb9-4c95-b1ab-ee72ac350776": {
+            "image_id": "6c7b3acc-2bb9-4c95-b1ab-ee72ac350776",
+            "image_path": "sample_image.png",
+            "source_language": "en",
+            "extracted_text": "",
+            "timestamp": "2025-05-03T16:46:27.032744"
+        },
+        "f69f73e7-4358-43d1-856c-92fcfcd52d67": {
+            "image_id": "f69f73e7-4358-43d1-856c-92fcfcd52d67",
+            "image_path": "image.jpg",
+            "source_language": "en",
+            "extracted_text": "Free as a bid\n\n",
+            "timestamp": "2025-05-03T16:48:05.395624"
+        },
+        "b1765d03-d2b7-4265-bb6f-731989b8a398": {
+            "image_id": "b1765d03-d2b7-4265-bb6f-731989b8a398",
+            "image_path": "image.jpg",
+            "source_language": "en",
+            "extracted_text": "Free as a bid\n\n",
+            "timestamp": "2025-05-03T16:50:02.913897"
+        },
+        "fd82d81f-f12b-4e7c-b34c-e3e005856119": {
+            "image_id": "fd82d81f-f12b-4e7c-b34c-e3e005856119",
+            "image_path": "image.jpg",
+            "source_language": "en",
+            "extracted_text": "Free as a bid\n\n",
+            "timestamp": "2025-05-03T16:52:23.530691"
+        },
+        "500c6e9b-20c0-4a9d-a034-0a1e44ba8920": {
+            "image_id": "500c6e9b-20c0-4a9d-a034-0a1e44ba8920",
+            "image_path": "image.jpg",
+            "source_language": "en",
+            "extracted_text": "Free as a bid\n\n",
+            "timestamp": "2025-05-03T17:08:24.172597"
+        }
+    },
+    "translations": {},
+    "schedules": [
+        {
+            "image_id": "",
+            "platform": "instagram",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "",
+            "platform": "instagram",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "",
+            "platform": "twitter",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "",
+            "platform": "twitter",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "",
+            "platform": "instagram",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "",
+            "platform": "instagram",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "",
+            "platform": "twitter",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "",
+            "platform": "twitter",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "",
+            "platform": "instagram",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "",
+            "platform": "instagram",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "",
+            "platform": "twitter",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "",
+            "platform": "twitter",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "",
+            "platform": "instagram",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "",
+            "platform": "instagram",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "",
+            "platform": "twitter",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "",
+            "platform": "twitter",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "",
+            "platform": "instagram",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "",
+            "platform": "instagram",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "",
+            "platform": "twitter",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "",
+            "platform": "twitter",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "5924e991-6117-453e-8b6d-89a6d55a2994",
+            "platform": "instagram",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "5924e991-6117-453e-8b6d-89a6d55a2994",
+            "platform": "instagram",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "5924e991-6117-453e-8b6d-89a6d55a2994",
+            "platform": "twitter",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "5924e991-6117-453e-8b6d-89a6d55a2994",
+            "platform": "twitter",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "3b04cc5a-73f1-4037-94cb-89797122c5f1",
+            "platform": "instagram",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "3b04cc5a-73f1-4037-94cb-89797122c5f1",
+            "platform": "instagram",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "3b04cc5a-73f1-4037-94cb-89797122c5f1",
+            "platform": "twitter",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "3b04cc5a-73f1-4037-94cb-89797122c5f1",
+            "platform": "twitter",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "2bb8b2f7-f382-46ac-bbc1-7024c7c4a0e8",
+            "platform": "instagram",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "2bb8b2f7-f382-46ac-bbc1-7024c7c4a0e8",
+            "platform": "instagram",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "2bb8b2f7-f382-46ac-bbc1-7024c7c4a0e8",
+            "platform": "twitter",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "2bb8b2f7-f382-46ac-bbc1-7024c7c4a0e8",
+            "platform": "twitter",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "8681da25-8800-48e6-bfcb-60d7cdcab1b0",
+            "platform": "instagram",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "8681da25-8800-48e6-bfcb-60d7cdcab1b0",
+            "platform": "instagram",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "8681da25-8800-48e6-bfcb-60d7cdcab1b0",
+            "platform": "twitter",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "8681da25-8800-48e6-bfcb-60d7cdcab1b0",
+            "platform": "twitter",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "c262b91a-a84e-4a3d-8e2d-6dccca185c1f",
+            "platform": "instagram",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "c262b91a-a84e-4a3d-8e2d-6dccca185c1f",
+            "platform": "instagram",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "c262b91a-a84e-4a3d-8e2d-6dccca185c1f",
+            "platform": "twitter",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "c262b91a-a84e-4a3d-8e2d-6dccca185c1f",
+            "platform": "twitter",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "0f9a9266-0727-43f6-971f-6d829a07e1e3",
+            "platform": "instagram",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "0f9a9266-0727-43f6-971f-6d829a07e1e3",
+            "platform": "instagram",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "0f9a9266-0727-43f6-971f-6d829a07e1e3",
+            "platform": "twitter",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "0f9a9266-0727-43f6-971f-6d829a07e1e3",
+            "platform": "twitter",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "cbb2296c-8dd8-4178-be3d-0416479b54d8",
+            "platform": "instagram",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "cbb2296c-8dd8-4178-be3d-0416479b54d8",
+            "platform": "instagram",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "cbb2296c-8dd8-4178-be3d-0416479b54d8",
+            "platform": "twitter",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "cbb2296c-8dd8-4178-be3d-0416479b54d8",
+            "platform": "twitter",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "84e77fce-a7aa-4a59-bd7c-0f7f8b1105e2",
+            "platform": "instagram",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "84e77fce-a7aa-4a59-bd7c-0f7f8b1105e2",
+            "platform": "instagram",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "84e77fce-a7aa-4a59-bd7c-0f7f8b1105e2",
+            "platform": "twitter",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "84e77fce-a7aa-4a59-bd7c-0f7f8b1105e2",
+            "platform": "twitter",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "9af71a3a-0076-4ed4-9895-c84445795dac",
+            "platform": "instagram",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "9af71a3a-0076-4ed4-9895-c84445795dac",
+            "platform": "instagram",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "9af71a3a-0076-4ed4-9895-c84445795dac",
+            "platform": "twitter",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "9af71a3a-0076-4ed4-9895-c84445795dac",
+            "platform": "twitter",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "0aa944c6-8b10-4d5e-9cd5-8e2068bc4518",
+            "platform": "instagram",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "0aa944c6-8b10-4d5e-9cd5-8e2068bc4518",
+            "platform": "instagram",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "0aa944c6-8b10-4d5e-9cd5-8e2068bc4518",
+            "platform": "twitter",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "0aa944c6-8b10-4d5e-9cd5-8e2068bc4518",
+            "platform": "twitter",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "c13175b3-e80e-494e-9822-ac500745786c",
+            "platform": "instagram",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "c13175b3-e80e-494e-9822-ac500745786c",
+            "platform": "instagram",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "c13175b3-e80e-494e-9822-ac500745786c",
+            "platform": "twitter",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "c13175b3-e80e-494e-9822-ac500745786c",
+            "platform": "twitter",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        }
+    ],
+    "agent1qv2tdkfvp7ejzf5ypsudsgpur3mlqv35ma43qs90pcpettgacxkdz3m7up4": {
+        "handle_process_image": {
+            "time_window_start": 1746277703,
+            "window_size_minutes": 1,
+            "requests": 1,
+            "max_requests": 10
+        },
+        "handle_schedule_post": {
+            "time_window_start": 1746277714.0,
+            "window_size_minutes": 1,
+            "requests": 1,
+            "max_requests": 10
+        }
+    }
+}
