@@ -619,17 +619,49 @@
             "time_zone": "Europe/Paris",
             "scheduled_time": "2025-05-04T18:00:00+02:00",
             "post_status": "pending"
+        },
+        {
+            "image_id": "72e8a3d4-7523-4e0e-a460-41355c421e06",
+            "platform": "instagram",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "72e8a3d4-7523-4e0e-a460-41355c421e06",
+            "platform": "instagram",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "72e8a3d4-7523-4e0e-a460-41355c421e06",
+            "platform": "twitter",
+            "target_language": "es",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
+        },
+        {
+            "image_id": "72e8a3d4-7523-4e0e-a460-41355c421e06",
+            "platform": "twitter",
+            "target_language": "fr",
+            "time_zone": "Europe/Paris",
+            "scheduled_time": "2025-05-04T18:00:00+02:00",
+            "post_status": "pending"
         }
     ],
     "agent1qv2tdkfvp7ejzf5ypsudsgpur3mlqv35ma43qs90pcpettgacxkdz3m7up4": {
         "handle_process_image": {
-            "time_window_start": 1746277703,
+            "time_window_start": 1746286250,
             "window_size_minutes": 1,
             "requests": 1,
             "max_requests": 10
         },
         "handle_schedule_post": {
-            "time_window_start": 1746277714.0,
+            "time_window_start": 1746286253.0,
             "window_size_minutes": 1,
             "requests": 1,
             "max_requests": 10
