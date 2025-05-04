@@ -56,11 +56,18 @@ class TranslatedContent(Model):
     timestamp: str
 
     @classmethod
-    def create(cls, image_id: str, target_language: Language, translated_text: str):
+    def create(
+        cls,
+        image_id: str,
+        target_language: Language,
+        translated_text: str,
+        edited_image_path: str = None
+    ):
         return cls(
             image_id=image_id,
             target_language=target_language,
             translated_text=translated_text,
+            edited_image_path=edited_image_path,
             timestamp=datetime.utcnow().isoformat()
         )
 

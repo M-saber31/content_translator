@@ -18,7 +18,7 @@ load_dotenv()
 # Agent configuration
 AGENT_SEED = os.getenv("AGENT_SEED", "content-translator-agent-seed")
 AGENT_PORT = int(os.getenv("AGENT_PORT", "8000"))
-AGENT_ENDPOINT = f"http://localhost:{AGENT_PORT}/submit"
+AGENT_ENDPOINT = f"http://0.0.0.0:{AGENT_PORT}/submit"
 
 # Create the agent
 content_translator = Agent(

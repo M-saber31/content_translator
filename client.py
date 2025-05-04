@@ -90,7 +90,7 @@ async def handle_schedule_post_response(ctx: Context, sender: str, msg: Schedule
     ctx.logger.info(f"Received post scheduling response from {sender}")
     if msg.schedules:
         for schedule in msg.schedules:
-            ctx.logger.info(f"Scheduled post for {schedule.platform.value} in {schedule.language.value} at {schedule.scheduled_time}")
+            ctx.logger.info(f"Scheduled post for {schedule.platform.value} in {schedule.target_language.value} at {schedule.scheduled_time}")
     else:
         ctx.logger.error("Post scheduling failed: No schedules returned")
 

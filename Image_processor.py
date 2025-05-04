@@ -58,61 +58,41 @@ class ImageProcessor:
     def replace_text_in_image(self, original_image_path: str, original_text: str, 
                              translated_text: str, font_style: dict) -> str:
         try:
-            # Load the image using PIL and convert to RGB
-            image_pil = Image.open(original_image_path).convert('RGB')
-            image_rgb = np.array(image_pil)  # Convert to NumPy array for Tesseract and OpenCV
+            # Set canvas size (optionally, use the original image size)
+            width, height = 800, 400  # Default size; can be adjusted or read from original image
+            try:
+                with Image.open(original_image_path) as img:
+                    width, height = img.size
+            except Exception:
+                pass
 
-            # Use Tesseract to detect text bounding boxes
-            custom_config = r'--oem 3 --psm 6'
-            details = pytesseract.image_to_data(image_rgb, output_type=pytesseract.Output.DICT)
-
-            # Create a blank mask (same size as image, single channel)
-            mask = np.zeros((image_rgb.shape[0], image_rgb.shape[1]), dtype=np.uint8)
-
-            # Iterate through detected text and draw bounding boxes on the mask
-            for i in range(len(details['text'])):
-                if int(float(details['conf'][i])) > 20:  # Only consider confident detections
-                    x, y, w, h = (
-                        details['left'][i],
-                        details['top'][i],
-                        details['width'][i],
-                        details['height'][i]
-                    )
-                    # Draw a filled rectangle on the mask (white = 255 for inpainting)
-                    cv2.rectangle(mask, (x, y), (x + w, y + h), 255, -1)
-
-            # Save the mask for inpainting
-            mask_pil = Image.fromarray(mask)
-            mask_pil.save('mask.png')
-
-            # Perform inpainting using SimpleLaMa if available
-            if self.simple_lama is not None:
-                mask_pil = Image.open('mask.png').convert('L')  # Ensure mask is single-channel
-                inpainted_image = self.simple_lama(image_pil, mask_pil)
-                print("Inpainting completed successfully")
-            else:
-                inpainted_image = image_pil  # Fallback to original image if inpainting fails
-
-            # Overlay the translated text on the inpainted image
-            draw = ImageDraw.Draw(inpainted_image)
+            # Create a black canvas
+            canvas = Image.new('RGB', (width, height), color='black')
+            draw = ImageDraw.Draw(canvas)
             font_path = font_style.get("family", "arial.ttf")
-            font = ImageFont.truetype(font_path, int(font_style.get("size", 24)))
-            color = font_style.get("color", "#000000")
+            font_size = int(font_style.get("size", 48))
+            color = font_style.get("color", "#FFFFFF")  # White text on black
+            font = ImageFont.truetype(font_path, font_size)
 
-            # Find a position for the translated text (using the first detected text's position if available)
-            text_position = (50, 50)  # Default position
-            for i in range(len(details['text'])):
-                if int(float(details['conf'][i])) > 0:
-                    text_position = (details['left'][i], details['top'][i])
-                    break
+            # Use the translated_text if available, otherwise original_text
+            text_to_draw = translated_text if translated_text.strip() else original_text
+            if not text_to_draw.strip():
+                text_to_draw = "[No text found by OCR]"
 
-            # Draw the translated text
-            draw.text(text_position, translated_text, font=font, fill=color)
+            # Draw the text centered
+            lines = text_to_draw.strip().split("\n")
+            y_offset = 40
+            for line in lines:
+                w, h = draw.textsize(line, font=font)
+                x = (width - w) // 2
+                draw.text((x, y_offset), line, font=font, fill=color)
+                y_offset += h + 10
 
-            # Save the final image
-            output_path = f"edited_{uuid.uuid4()}.png"
-            inpainted_image.save(output_path)
+            # Save the canvas
+            output_path = f"canvas_{uuid.uuid4()}.png"
+            canvas.save(output_path)
+            print(f"Canvas image saved at: {output_path}")
             return output_path
 
         except Exception as e:
-            raise Exception(f"Error replacing text: {e}")
+            raise Exception(f"Error creating canvas with text: {e}")
